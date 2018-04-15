@@ -11,6 +11,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+h1{
+    font-size: 3em;
+    font-family: 'Work Sans', sans-serif;
+}
 a{
     color: #d1d1d1;
     text-decoration: none;
