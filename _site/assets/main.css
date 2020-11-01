@@ -194,3 +194,27 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+body { background-color: #0587b2; font-family: sans-serif; background-image: url("light-toast.png"); }
+
+.index { text-align: center; color: white; }
+
+.index .container { height: 80vh; display: flex; justify-content: center; align-items: center; }
+
+.site-header { background: #fff; }
+
+.page-content .wrapper { padding-top: 20px; background: #fff; }
+
+.site-footer { border: none; }
+
+h1 { font-size: 3em; font-family: 'Work Sans', sans-serif; }
+
+.index a { color: #d1d1d1; text-decoration: none; border-bottom: 1px dotted; }
+
+.index a:hover { border-color: #fff; }
+
+.amazon:hover { color: #ff9900; border-color: #000; }
+
+.angellist:hover { color: #000; border-color: #fff; }
+
+.carleton:hover { color: #f3b61d; border-color: #003f79; }

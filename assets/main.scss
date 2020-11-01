@@ -1,27 +1,52 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
 body {
     background-color: #0587b2;
-    color: white;
-    text-align: center;
     font-family: sans-serif;
-    background-image: url(https://www.transparenttextures.com/patterns/light-toast.png);
+    background-image: url("light-toast.png");
 }
-.container {
+
+.index{
+    text-align: center;
+    color: white;
+}
+
+.index .container {
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.site-header {
+    background: #fff;
+}
+
+.page-content .wrapper {
+    padding-top: 20px;
+    background: #fff;
+}
+
+.site-footer {
+    border: none;
+}
+
 h1 {
     font-size: 3em;
     font-family: 'Work Sans', sans-serif;
 }
-a {
+
+.index a {
     color: #d1d1d1;
     text-decoration: none;
     border-bottom: 1px dotted;
 }
 
-a:hover {
+.index a:hover {
     border-color: #fff;
 }
 

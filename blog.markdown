@@ -1,4 +1,5 @@
 ---
 
-layout: home
+layout: blog
+title: "Blog"
 ---
