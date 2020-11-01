@@ -258,7 +258,6 @@ DEPENDENCIES
   github-pages (~> 209)
   jekyll (~> 3.9.0)
   jekyll-feed
-  minima
 
 BUNDLED WITH
    2.1.4
