@@ -12,4 +12,3 @@ As it turns out, I’m really not sure how to do that. I think all I can do is b
 Maybe I’m approaching this from too analytical a world view though. Maybe creators just create, and then accept that some people will like it, and some won’t. 
 
 I’m not fully convinced by that though. After all, lots of sequels are accused of pandering too much to fans. So I have to believe that creators are aware of the communities that they create and their feelings. And in that case, the work that they do to actively find and cultivate groups of like-minded fans should be commended. Even if the actual content is as inane as an instagram influencers ad posts.
-
