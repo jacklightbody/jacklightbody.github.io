@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scheduleing"
+title:  "Scheduling"
 date:   2020-11-6
 ---
 Writing every day requires finding time for it every single day. Which means planning out my days so that I know what windows of free time I have. It’s also a forcing mechanism to get me to actually produce during those stints if I don’t have a later opportunity. 
