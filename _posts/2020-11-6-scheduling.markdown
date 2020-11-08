@@ -3,7 +3,7 @@ layout: post
 title:  "Scheduling"
 date:   2020-11-6
 ---
-Writing every day requires finding time for it every single day. Which means planning out my days so that I know what windows of free time I have. It’s also a forcing mechanism to get me to actually produce during those stints if I don’t have a later opportunity. 
+Writing every day requires finding time for it every single day. Which means planning out my days to know when I have windows of free time. It’s also a forcing mechanism to get me to actually produce during those stints if there isn't a later opportunity. 
 
 Such structure was a staple of my childhood. I was constantly rushing around between practices with my backpack, or smuggling a headlamp onto the bus back from a later soccer game to see my homework. So I’ve welcomed the feeling back as a long-lost friend. 
 
