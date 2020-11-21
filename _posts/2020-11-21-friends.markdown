@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Routes"
-date:   2020-11-20
+title:  "Friends"
+date:   2020-11-21
 ---
 Growing up in a tiny New Hampshire village meant being far from everything. My town had a general store with milk and chips, a post office, and a small library offshoot. If you wanted anything else you had to drive into the next town over for it. 
 
