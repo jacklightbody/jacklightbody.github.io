@@ -3,12 +3,12 @@ layout: post
 title:  "Audience"
 date:   2020-11-3
 ---
-One thing that’s already surprised me about this writing is that I don’t know my audience. That’s not strictly true— it’s my girlfriend and family (the only ones to who'll actually read this). But still. My audience could be anyone with an internet connection, at least in theory. 
+I freely admit that I had no idea what to expect from this exercise. But even so, I've already been suprised by the impact of not knowing my audience. I don't know the innate biases and backgrounds of the faceless people reading this, and so not can't intuit the most relatable way to frame my ideas. 
 
-I don’t think I’ve ever written a faceless person before. It’s liberating and a bit intimidating. I can’t know how their own background has shaped how they will take my opinions. There’s not necessarily any shared ground between us. Instead, it’s my job as the writer to make them feel that shared connection, that spark of empathy. 
+Granted, the premise of this piece is not strictly true. My audience is my girlfriend and family, the ones who will actually read this. But still. In theory anyone with an internet connection could read my words.
 
-As it turns out, I’m really not sure how to do that. I think all I can do is be as honest and candid as possible, and hope that my basic humanness shines through. Any other way would seem like pandering.
+I’ve never written a faceless person before. There’s no shared ground between us, which is liberating and a bit intimidating. Instead it’s my job as the writer to create that spark of empathy. And I’m really not sure how to do that. Beyond being as honest and candid as possible, and hoping that my basic humanness shines through. Any other way seems like pandering.
 
-Maybe I’m approaching this from too analytical a world view though. Maybe creators just create, and then accept that some people will like it, and some won’t. 
+Maybe I’m approaching this from too analytical a world view. Maybe I should just create and accept that it will resonate witb some people and not others.  Maybe thats what true creators do, the ones with legions of fans.
 
-I’m not fully convinced by that though. After all, lots of sequels are accused of pandering too much to fans. So I have to believe that creators are aware of the communities that they create and their feelings. And in that case, the work that they do to actively find and cultivate groups of like-minded fans should be commended. Even if the actual content is as inane as an instagram influencers ad posts.
+I’m not convinced by that though. Celebrities are only human, so I have to believe that they are aware of the reactions to their work. It makes my appreciate the work that they do to actively find and cultivate groups of like-minded fans into tight-knit communities. Even if the actual content is as inane as advertising for new underwear on instagram. 
