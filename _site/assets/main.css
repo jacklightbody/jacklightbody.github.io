@@ -195,19 +195,23 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-body { background-color: #0587b2; font-family: sans-serif; background-image: url("light-toast.png"); }
+body { background-color: #0587b2; font-family: Arial, Helvetica, sans-serif; background-image: url("light-toast.png"); }
 
 .index { text-align: center; color: white; }
 
 .index .container { height: 80vh; display: flex; justify-content: center; align-items: center; }
 
-.site-header { background: #fff; }
+.page-content { padding-top: 80px; }
 
-.page-content .wrapper { padding-top: 20px; background: #fff; }
+.page-content .wrapper { padding-top: 20px; background: #fff; color: #40454a; }
 
 .site-footer { border: none; }
 
-h1 { font-size: 3em; font-family: 'Work Sans', sans-serif; }
+h1 { font-size: 3.5em; font-family: 'Volkhov', sans-serif; font-weight: 200; }
+
+.breadcrumb { color: #949799; }
+
+.breadcrumb a { color: #949799; }
 
 .index a { color: #d1d1d1; text-decoration: none; border-bottom: 1px dotted; }
 
