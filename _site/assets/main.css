@@ -203,15 +203,23 @@ body { background-color: #0587b2; font-family: Arial, Helvetica, sans-serif; bac
 
 .page-content { padding-top: 80px; }
 
+.post-body { padding-bottom: 20px; }
+
 .page-content .wrapper { padding-top: 20px; background: #fff; color: #40454a; }
 
 .site-footer { border: none; }
 
-h1 { font-size: 3.5em; font-family: 'Volkhov', sans-serif; font-weight: 200; }
+h1 { font-family: 'Volkhov', sans-serif; }
+
+h2 { font-family: 'Volkhov', sans-serif; }
+
+h3 { font-family: 'Volkhov', sans-serif; }
 
 .breadcrumb { color: #949799; }
 
 .breadcrumb a { color: #949799; }
+
+.secondary { color: #949799; }
 
 .index a { color: #d1d1d1; text-decoration: none; border-bottom: 1px dotted; }
 

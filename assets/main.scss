@@ -25,6 +25,9 @@ body {
 .page-content {
     padding-top: 80px;
 }
+.post-body {
+    padding-bottom: 20px;
+}
 
 .page-content .wrapper {
     padding-top: 20px;
@@ -37,10 +40,17 @@ body {
 }
 
 h1 {
-    font-size: 3.5em;
-    font-family: 'Volkhov', sans-serif;
-    font-weight: 200;   
+    font-family: 'Volkhov', sans-serif; 
 }
+
+h2 {
+    font-family: 'Volkhov', sans-serif;  
+}
+
+h3 {
+    font-family: 'Volkhov', sans-serif;  
+}
+
 
 .breadcrumb {
     color: #949799;
@@ -48,7 +58,9 @@ h1 {
 .breadcrumb a {
     color: #949799;
 }
-
+.secondary {
+    color: #949799;
+}
 .index a {
     color: #d1d1d1;
     text-decoration: none;

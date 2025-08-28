@@ -1,0 +1,13 @@
+---
+layout: default
+---
+  {%- if page.title -%}
+    <h3 ><span class="breadcrumb"> <a href="/">Jack</a> /</span> <span class="breadcrumb"> <a href="/writing">Writing</a> /</span></h3>
+     <h1 class="page-heading">{{ page.title }}</h1>
+     <p class="secondary">{{ page.date | date: "%-d %B %Y"  }} </p>
+
+  {%- endif -%}
+
+<div class="post-body">
+{{ content }}
+</div>
