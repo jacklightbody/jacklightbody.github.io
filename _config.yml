@@ -31,6 +31,13 @@ show_excerpts: true
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: G-QKSDQRPMK2
+    anonymizeIp: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
