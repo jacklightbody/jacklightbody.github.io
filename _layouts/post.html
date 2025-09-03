@@ -5,6 +5,14 @@ layout: default
     <h3 ><span class="breadcrumb"> <a href="/">Jack</a> /</span> <span class="breadcrumb"> <a href="/writing">Writing</a> /</span></h3>
      <h1 class="page-heading">{{ page.title }}</h1>
      <p class="secondary">{{ page.date | date: "%-d %B %Y"  }} </p>
+     <div class="inline-form-container">
+  <span>Get new posts in your inbox:</span>
+  <form target="_blank" action="https://formsubmit.co/07453565fac743b54b4cb09e7dd6632f" method="POST" class="inline-form">
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="hidden" name="_next" value="https://jacklightbody.github.io/thanks">
+    <button type="submit">Subscribe</button>
+  </form>
+</div>
 
   {%- endif -%}
 

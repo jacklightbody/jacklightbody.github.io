@@ -230,3 +230,24 @@ h3 { font-family: 'Volkhov', sans-serif; }
 .angellist:hover { color: #000; border-color: #fff; }
 
 .carleton:hover { color: #f3b61d; border-color: #003f79; }
+
+/* subscribe form */
+.inline-form-container { display: flex; align-items: center; gap: 0.5rem; /* space between text and form */ font-family: sans-serif; margin-bottom: 20px; }
+
+/* Make form inline-flex so it stays on the same line */
+.inline-form { display: inline-flex; gap: 0.5rem; align-items: center; margin: 0; /* remove default form margin */ padding: 0; }
+
+/* Email input styling */
+.inline-form input[type="email"] { padding: 0.5rem 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; outline: none; transition: border-color 0.2s; }
+
+.inline-form input[type="email"]:focus { border-color: #2a7ae2; /* match button for cohesion */ }
+
+/* Button styling */
+.inline-form button { padding: 0.5rem 1rem; font-size: 1rem; border: none; background-color: #2a7ae2; color: white; border-radius: 4px; cursor: pointer; transition: background-color 0.2s; }
+
+.inline-form button:hover { background-color: #1756a9; }
+
+/* Responsive: stack on mobile */
+@media (max-width: 480px) { .inline-form-container { flex-direction: column; align-items: flex-start; }
+  .inline-form { width: 100%; flex-wrap: wrap; }
+  .inline-form input[type="email"], .inline-form button { width: 100%; } }
