@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Losing Trust in Your Company"
+title:  "Losing (and Maintaining) Trust in Your Company"
 date:   2025-9-3
 ---
 
@@ -22,7 +22,7 @@ I also found that these “easy” positive events weren’t always fully in my 
 
 So I developed a few habits to more actively keep myself engaged:
 
-* **Regularly interviewing candidates**. Any interviewer knows that one of the most frequent questions you’re asked is “what do you like best about the company?” I found that coming up with an authentic answer and regularly repeating it to yourself and others almost indoctrinates you to believe it, just like smiling can make you happier (source).  
+* **Regularly interviewing candidates**. Any interviewer knows that one of the most frequent questions you’re asked is “what do you like best about the company?” I found that coming up with an authentic answer and regularly repeating it to yourself and others almost indoctrinates you to believe it, just like [smiling can make you happier](https://www.bps.org.uk/research-digest/adopting-smile-can-make-you-feel-happier-large-global-study-finds).  
 * **Carving out time for energy boosting activities**. Especially as a manager, often times your wins come from long term efforts like coaching your report and seeing them take over and lead a meeting flawlessly or shipping a quarter long roadmap. But if I’m having a bad day, I know that taking on a small ticket in the backlog and seeing all the tests go green will give me an energy boost right when I need it. I really like the term “[snacking](https://www.intercom.com/blog/first-rule-prioritization-no-snacking/)” for this work. Like junk-food, I have to be careful not to over-indulge this impulse since it’s very rarely the most valuable work I could be doing. But I do think it’s valuable work when it lets me manage my mental health.  
 * **Fixing things yourself**. Often decisions may seem out of your control, especially as you go farther down the org chart. But a reasonable percentage of the time you actually will be able to drive change simply by being the person in the company who cares the most about it. Even if you ultimately aren’t successful or things truly are out of your control, you will certainly be remembered by leadership as someone who cares. Whereas if you don’t even try, you never had a chance.  
 * **Actively building relationships outside my organization who are above me in the org chart**. These diagonal relationships helped me trust the intent behind every decision, because I knew that the people making the call had good reasons— even if I didn’t agree.  

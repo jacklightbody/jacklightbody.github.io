@@ -250,4 +250,5 @@ h3 { font-family: 'Volkhov', sans-serif; }
 /* Responsive: stack on mobile */
 @media (max-width: 480px) { .inline-form-container { flex-direction: column; align-items: flex-start; }
   .inline-form { width: 100%; flex-wrap: wrap; }
-  .inline-form input[type="email"], .inline-form button { width: 100%; } }
+  .inline-form input[type="email"], .inline-form button { width: 100%; }
+  .page-content { padding-top: 40px; padding-bottom: 0px; margin-top: -40px; margin-bottom: -60px; } }
