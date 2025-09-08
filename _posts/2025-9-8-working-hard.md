@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Working Hard"
+date:   2025-9-8
+---
+I spent a week this summer hiking a [75 mile stretch of the PCT](https://www.wta.org/go-hiking/hikes/pacific-crest-trail-section-j-snoqualmie-pass-to-stevens-pass-east) with a friend. We averaged \~18 miles a day, and would typically hike for 12 hours, get into camp around 7 at night, and fall into our sleeping bags shortly thereafter. On some nights I would’ve loved to have a bit more time to recover, but there simply wasn’t another way to cover that kind of mileage without long hours.
+
+So when I see posts [espousing constant availability like a 9-9-6 culture](https://www.wired.com/story/silicon-valley-china-996-work-schedule/), I kinda get it. More hours \~= more work done. No, I wasn’t walking as fast in the 12th hour as I was in the 5th- but I wasn’t being negatively productive; I was still putting one foot in front of the other. And there are absolutely some businesses in hypergrowth where that extra marginal foot matters. 
+
+[Investors](https://x.com/garrytan/status/1965124089875685532) and founders encouraging the phenomenon are also acting logically. VC investing is a [long-tail market where most companies will go to zero but the ones that make it are huge](https://www.linkedin.com/pulse/whaling-venture-capital-long-tale-long-tail-returns-nathan-sieminski-u9aic/). If investors can convince every employee at each of their portfolio companies to work an extra hour, they will see massive benefits. Founders are similar, but more highly concentrated into a single company. And even if their company fails, showing hustle to the right investors gives them a great chance of getting referred to a plum job.
+
+All that to say: I get why the [9-9-6 culture has gained steam](https://ramp.com/velocity/san-francisco-tech-workers-996-schedule?utm_source=twitter). And even from the employees’ perspective it can make sense\! Early employees won’t have founder-level equity[^1], but they’ll have enough to be meaningful in the event of an exit. And many people find meaning and friendship at work- particularly if you just moved across the country to a west-coast city that’s thousands of miles away from everyone you’ve ever known. 
+
+But for the 99% of companies that aren’t truly in a hypergrowth phase, such a culture raises the floor but also lowers the ceiling. Why?
+
+- **It discourages creativity.** Most people can only do a [handful of hours of creative work a day](https://www.oliverburkeman.com/fourhours). If your business isn’t in hypergrowth (but is trying to get there), your limiter is likely more creative ideas rather than more execution time. Spending those extra hours on pure execution rather than encouraging boredom will [stifle your creativity](https://journals.aom.org/doi/10.5465/amd.2017.0033).  
+  - As an example, I’ve worked with some incredibly talented colleagues who never learned how to scale themselves. As they accumulated more responsibilities they just worked more hours. At a certain point they physically couldn’t work more and they couldn’t keep pace with the organization. Working fewer hours would’ve forced them to develop effective systems to delegate and check in.  
+- **It risks burning out the team**. Even if you’re somehow ok with churning 90% of the team every few years, [losing your 10% of top performers can take years to recover from](https://x.com/danluu/status/1477358578792951808).   
+- **It stops you from sprinting when it matters.** If everyone is already going all out, you don’t have that extra gear to push for the big compliance deadline or upcoming customer demo. If I had seen a bear in my 12th hour of hiking I wasn’t going to be able to run away no matter how much I wanted to. 
+
+Beyond the business case, I also just think it’s wrong at a personal level. Meeting your partner or life-long friends is often the most valuable thing you can get out of your 20s and 30s, but [most people don’t meet them at work](https://www.smithsonianmag.com/arts-culture/new-insights-how-american-couples-meet-180973335/). Instead, I think for some people work can almost be a retreat to something that they know and are good at, rather than a scary arena with unknown rules. But you don’t get better at making friends or dating by avoiding it. 
+
+Rather than building a team of people who constantly work long hours, I’d rather build a team of people that deeply care. The truth is, most of these people *will* work longer hours than normal. But they're intentionally choosing how and when to work, and have shaped their routines accordingly. Maybe they're logging off to go for a run every afternoon but still thinking about work in the shower. Or maybe they're leaving early to see their kids’ soccer practice every Monday and checking Slack when they get back. They work hard because they care about it and get value out of it, not because they're performing to an arbitrary standard[^2]. Those are the kind of people I want to work with.
+
+[^1]:  This assumes the company exits in a standard way. With some of the acqui-hire deal structures the valley is using now where payouts for early employees are not guaranteed, this starts to look downright predatory.
+
+[^2]: A common excuse is that measuring how much someone cares is **much** more difficult than tracking hours spent in the office, which is \~trivial. But just because it’s the easy answer doesn’t mean it’s the right one.
