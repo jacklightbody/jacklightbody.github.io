@@ -24,4 +24,4 @@ Rather than building a team of people who constantly work long hours, I’d rath
 
 [^1]:  This assumes the company exits in a standard way. With some of the acqui-hire deal structures the valley is using now where payouts for early employees are not guaranteed, this starts to look downright predatory.
 
-[^2]: A common excuse is that measuring how much someone cares is **much** more difficult than tracking hours spent in the office, which is \~trivial. But if you're not willing to spend time figuring out who your top performers are, you're probably not going to make it.
+[^2]: A common excuse is that measuring how much someone cares is **much** more difficult than tracking hours spent in the office, which is \~trivial. But if you're not willing to spend time figuring out who your top performers are, you're probably not going to make it anyways.
