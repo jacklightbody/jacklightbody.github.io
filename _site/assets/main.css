@@ -229,7 +229,7 @@ h3 { font-family: 'Volkhov', sans-serif; }
 
 .angellist:hover { color: #000; border-color: #fff; }
 
-.carleton:hover { color: #f3b61d; border-color: #003f79; }
+.carleton:hover { color: #234E8E; border-color: #fff; }
 
 /* subscribe form */
 .inline-form-container { display: flex; align-items: center; gap: 0.5rem; /* space between text and form */ font-family: sans-serif; margin-bottom: 20px; }
