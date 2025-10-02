@@ -20,7 +20,7 @@ That was really weird to me. Databases have lots of nice properties that a flat 
 - If they want to perform a bulk operation they need to bug an engineer  
 - If they want to add validations, they need to bug an engineer
 
-In short, it’s a completely illegible system to them\! They can only interact with the database through narrowly defined tools that I create with them to do so. And they’re relying on these tolls they don’t fully understand to do their job, knowing full well that they’ll be the ones getting yelled at if things go south, not me. If I want to build a product that they’ll really enjoy and love, I needed to live in their world rather than asking them to use mine. 
+In short, it’s a completely illegible system to them\! They can only interact with the database through narrowly defined tools that I create with them to do so. And they’re relying on these tools they don’t fully understand to do their job, knowing full well that they’ll be the ones getting yelled at if things go south, not me. If I want to build a product that they’ll really enjoy and love, I needed to live in their world rather than asking them to use mine. 
 
 That was the initial hook that pulled me into accounting, but the closer I looked the more interesting it became. Double-entry bookkeeping was established [half a millenia ago](https://www.math.stonybrook.edu/~tony/whatsnew/column/bookkeeping-1001/book1.html) and has now outlived countless civilizations, much less technologies. Accounting is absolutely everywhere, running through every single company and country out there. And it’s not a rigid formula, but something that’s formed and shaped both by the goals of the company and the person working on it: just like companies will spin up new corporate entities or change pricing structures purely to adjust their accounting numbers, different accountants will make have different risk tolerances and make different judgment calls.
 
@@ -29,3 +29,8 @@ Accounting doesn’t get the spotlight that software or management practices do,
 Or maybe I’m just a geek :)
 
 [^1]:  For anyone unfamiliar with accounting, here’s a 3 bullet explanation: 
+
+    * Imagine all the money that a business earns, spends, owns, or owes is a bucket filled with different amounts of water (money). 
+    * As transactions happen, water can only get moved by simultaneously decreasing the water in one bucket and increasing it in another bucket. This is called a debit/credit, and they always have to be paired.
+    * If the company earns some money, they credit their earnings (income) bucket. So the corresponding increase in owned assets (cash) must therefore be a debit.
+
