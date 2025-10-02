@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Accounting | Jack</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Accounting" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I initially joined AngelList to learn more about venture capital and startups. Ya know, the sexy headline topics. Yet over time, I found myself increasingly interested in accounting, which was probably the last thing I would’ve expected. In fact, I’d never really thought about accounting before, nor was it in the job description when I joined. But over time it grew from a side consideration for the company— “Oh yeah, we have those two accountants who kept our valuations updated”— to one of the businesses main considerations." />
+<meta property="og:description" content="I initially joined AngelList to learn more about venture capital and startups. Ya know, the sexy headline topics. Yet over time, I found myself increasingly interested in accounting, which was probably the last thing I would’ve expected. In fact, I’d never really thought about accounting before, nor was it in the job description when I joined. But over time it grew from a side consideration for the company— “Oh yeah, we have those two accountants who kept our valuations updated”— to one of the businesses main considerations." />
+<link rel="canonical" href="http://localhost:4000/2025/10/01/accounting.html" />
+<meta property="og:url" content="http://localhost:4000/2025/10/01/accounting.html" />
+<meta property="og:site_name" content="Jack" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-10-01T00:00:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Accounting" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-01T00:00:00-07:00","datePublished":"2025-10-01T00:00:00-07:00","description":"I initially joined AngelList to learn more about venture capital and startups. Ya know, the sexy headline topics. Yet over time, I found myself increasingly interested in accounting, which was probably the last thing I would’ve expected. In fact, I’d never really thought about accounting before, nor was it in the job description when I joined. But over time it grew from a side consideration for the company— “Oh yeah, we have those two accountants who kept our valuations updated”— to one of the businesses main considerations.","headline":"Accounting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/10/01/accounting.html"},"url":"http://localhost:4000/2025/10/01/accounting.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jack" /></head>
+<body><link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QKSDQRPMK2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QKSDQRPMK2');
+</script><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <h3 ><span class="breadcrumb"> <a href="/">Jack</a> /</span> <span class="breadcrumb"> <a href="/writing">Writing</a> /</span></h3>
+     <h1 class="page-heading">Accounting</h1>
+     <p class="secondary">1 October 2025 </p>
+     <div class="inline-form-container">
+  <span>Get new posts in your inbox:</span>
+  <form target="_blank" action="https://formsubmit.co/07453565fac743b54b4cb09e7dd6632f" method="POST" class="inline-form">
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="hidden" name="_next" value="https://jacklightbody.github.io/thanks">
+    <button type="submit">Subscribe</button>
+  </form>
+</div><div class="post-body">
+<p>I initially joined AngelList to learn more about venture capital and startups. Ya know, the sexy headline topics. Yet over time, I found myself increasingly interested in accounting, which was probably the last thing I would’ve expected. In fact, I’d never really thought about accounting before, nor was it in the job description when I joined. But over time it grew from a side consideration for the company— “Oh yeah, we have those two accountants who kept our valuations updated”— to one of the businesses main considerations.</p>
+
+<p>Despite knowing nothing about the space, I was tapped to build the first version of our accounting product. I went into it with a vague “I guess now I gotta figure this out” attitude. I read a bunch of articles online, asked our accounting team a bunch of questions, and got to a point where I could rationalize why debits sometimes increased balances<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. I essentially viewed accounting as a different way of visualizing the same information, much like you might export a dataset in json or xml.</p>
+
+<p>To handle this, I built a system to transform a snapshot of our database into an accountant ready report. I compared these reports against the small handful that accountants were manually creating a quarter, and slowly iterated on any transaction rulesets that weren’t functioning quite right. But the core of the system still treated our relational database as the source of truth, and just added a translation layer to turn it into a table in excel that accountants could interact with.</p>
+
+<p>While this system worked well enough, it didn’t get immediate applause from the accounting team. They used it, but seemed to keep tripping up on the same issues and didn’t seem to be gaining that much leverage vs. compiling reports manually.</p>
+
+<p>Eventually, I learned that my core assumption of building a “translation” layer was deeply wrong. At it’s heart, much of accounting is really about control, not information presentation. By mandating that every debit have a corresponding credit for the same amount, accountants can instantly prevent a whole category of errors. By encoding multiple debits/credits in a single entry accountants can tell a story of a transaction that will bear up to auditor scrutiny. You just can’t get those same guarantees translating a relational database into double-entry bookkeeping, so any attempt will always fall short.</p>
+
+<p>That was really weird to me. Databases have lots of nice properties that a flat set of transactions don’t. It’s really easy to encode relationships between things, to perform operations in bulk, and to add validations. But that’s my perspective as an engineer. For accountants, it’s exactly the opposite:</p>
+
+<ul>
+  <li>If they want to encode a relationship in a database, they need to bug an engineer</li>
+  <li>If they want to perform a bulk operation they need to bug an engineer</li>
+  <li>If they want to add validations, they need to bug an engineer</li>
+</ul>
+
+<p>In short, it’s a completely illegible system to them! They can only interact with the database through narrowly defined tools that I create with them to do so. And they’re relying on these tolls they don’t fully understand to do their job, knowing full well that they’ll be the ones getting yelled at if things go south, not me. If I want to build a product that they’ll really enjoy and love, I needed to live in their world rather than asking them to use mine.</p>
+
+<p>That was the initial hook that pulled me into accounting, but the closer I looked the more interesting it became. Double-entry bookkeeping was established <a href="https://www.math.stonybrook.edu/~tony/whatsnew/column/bookkeeping-1001/book1.html">half a millenia ago</a> and has now outlived countless civilizations, much less technologies. Accounting is absolutely everywhere, running through every single company and country out there. And it’s not a rigid formula, but something that’s formed and shaped both by the goals of the company and the person working on it: just like companies will spin up new corporate entities or change pricing structures purely to adjust their accounting numbers, different accountants will make have different risk tolerances and make different judgment calls.</p>
+
+<p>Accounting doesn’t get the spotlight that software or management practices do, but it’s one of the deepest systems operating the modern world.</p>
+
+<p>Or maybe I’m just a geek :)</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>For anyone unfamiliar with accounting, here’s a 3 bullet explanation: <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+      </div>
+    </main><footer class="site-footer h-card">
+</footer></body>
+
+</html>
