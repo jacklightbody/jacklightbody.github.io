@@ -29,8 +29,4 @@ I’d love to see more of this as AI work accelerates. In simple problem spaces 
 
 In other words: don’t just build better agents. Build better checks tabs. I think that’s where the real breakthroughs will happen.
 
-Hook
-
-Everyone seems to be building agents these days— making them smarter, more capable, and cheaper to run. It seems like they can do everything humans can, but faster. But without real verification, that speed just gets you to the wrong answer faster. The real opportunity is in effectively embedding domain context into the verification layer so you get better answers, not in making a better slop machine.
-
 [^1]:  Plus, researchers [already know the rules of the domain](https://jacklightbody.github.io/2025/10/14/legibility-and-ai.html).
