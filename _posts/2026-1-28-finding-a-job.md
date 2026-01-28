@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Learning How to Find a Job (again)"
+date:   2026-1-28
+---
 I made a ton of mistakes looking for a job for the first time in five years. The old reliables (DMs to hiring managers, leetcode drills, etc.) all seemed to be passé. Some specific things that surprised me:
 
 ### Top of Funnel Recruiting Has Shifted
