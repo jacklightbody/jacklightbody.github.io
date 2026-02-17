@@ -29,7 +29,3 @@ That reaction is especially important to dig into if it’s negative. Builders w
 Craft-driven engineers will likely still enjoy working with scale on the order of billions or trillions where each line of code is incredibly load-bearing. Or in security companies exposed to nation-state level actors where sending source code to an LLM is actually a risk. Problem solvers will still find challenges in complex domains like compliance, accounting, and heavily regulated industries, where much of the work is understanding the domain and building the right mental models, not just writing code.
 
 But agents aren’t going away anytime soon. You can't just assume that a “software engineer” role will be mostly the same anywhere you go. You need to understand what actually gives you satisfaction, and choose environments that preserve it.
-
-Wall street raiders
-
-Stay sassy tweet someone quit
