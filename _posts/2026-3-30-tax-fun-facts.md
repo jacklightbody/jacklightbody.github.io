@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tax Fun Facts"
-date:   2026-3-30
+date:   2026-03-30
 ---
 
 I haven’t had much time to write lately, but here are a few of my favorite facts about the tax code in honor of the upcoming deadline:
