@@ -10,7 +10,7 @@ I haven’t had much time to write lately, but here are a few of my favorite fac
 * Most people pay taxes evenly throughout the year through withholding from their job. Self-employed or retired people are expected to do the same through quarterly estimated payments. If they choose, they can use a special “annualized income method” to calculate their income differently and make uneven payments.  
 * Income sourced from federal bonds is generally not considered taxable income in states.  
 * State and local tax (SALT) deductions allow homeowners to deduct things like property taxes. For people who hit the cap and have a home office, the IRS allows the business-use portion of those taxes to be deducted separately. SALT deductions are now capped at $40k (up from $10k), but the IRS hasn’t updated the instructions for the business-use worksheet to reflect the higher cap yet.  
-* Olympic and Paralympic medals are taxable and have a whole row devoted to them on the schedule 1\. 
+* Olympic medals are taxable and have a whole row devoted to them on the Schedule 1\. 
 
 ---
 <br>
