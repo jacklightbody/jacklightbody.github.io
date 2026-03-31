@@ -14,6 +14,7 @@ I haven’t had much time to write lately, but here are a few of my favorite fac
 
 ---
 
+
 It’s easy to look at this list and think it’s just a bunch of random trivia. That’s also why people often frame things they discover in the code as “crazy tax hacks.” Viewed in isolation, many of these rules seem incredibly arbitrary.
 
 But they’re usually not:
@@ -25,6 +26,7 @@ But they’re usually not:
 - Most olympians won’t actually pay any tax on their medals– only those with income \> 1 million, which allows “true amateurs” without major brand sponsorships to enjoy their prize without consequence. 
 
 ---
+
 
 With that context, each of these feels like a real tool to help achieve specific policy goals at a given point in time. The weird rules usually aren't weird for no reason, they’re just a solution to a problem you’ve never experienced.
 
