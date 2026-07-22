@@ -12,7 +12,7 @@ But it also means you’re not actually changing anything. You’re just pushing
 
 Meanwhile, there's probably something on your list you’ve been avoiding. Maybe it’s a little scary to start. Maybe it won’t feel great even if you finish it today because you won’t know if you got it right for days or weeks or quarters.
 
-But that's the work that creates things. That leaves a (tiny, ever so tiny) impression on the world.
+But that's the work that leaves a (tiny, ever so tiny) impression on the world.
 
 Lets do that instead.
 
