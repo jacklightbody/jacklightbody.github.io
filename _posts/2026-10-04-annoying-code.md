@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Things That Annoy Me"
+title:  "Annoying Code"
 date:   2026-10-04
 ---
 At previous jobs I could always rattle off a list of \~5 services or systems that just didn't work quite right. Some modeled the wrong domain object, some were breaking at scale, and some had just always been held together by duct tape and good wishes. The exact items on the list changed, but there was always a list. 
