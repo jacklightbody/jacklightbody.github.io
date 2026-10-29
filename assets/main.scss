@@ -5,9 +5,11 @@
 @import "minima";
 
 body {
-    background-color: #0587b2;
+    background-color: #034e67;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("light-toast.png");
+    background-image:
+        linear-gradient(rgba(3, 78, 103, 0.55), rgba(3, 78, 103, 0.55)),
+        url("light-toast.png");
 }
 
 .index{
@@ -89,7 +91,7 @@ h3 {
 }
 
 .carleton:hover {
-    color: #234E8E;
+    color: #5076af;
     border-color: #fff;
 }
 
@@ -123,7 +125,7 @@ h3 {
 }
 
 .inline-form input[type="email"]:focus {
-  border-color: #2a7ae2; /* match button for cohesion */
+  border-color: #034e67; /* match button for cohesion */
 }
 
 /* Button styling */
@@ -131,7 +133,7 @@ h3 {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border: none;
-  background-color: #2a7ae2;
+  background-color: #034e67;
   color: white;
   border-radius: 4px;
   cursor: pointer;
@@ -139,7 +141,7 @@ h3 {
 }
 
 .inline-form button:hover {
-  background-color: #1756a9;
+  background-color: #034e67;
 }
 
 /* Responsive: stack on mobile */

@@ -195,7 +195,7 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-body { background-color: #0587b2; font-family: Arial, Helvetica, sans-serif; background-image: url("light-toast.png"); }
+body { background-color: #034e67; font-family: Arial, Helvetica, sans-serif; background-image: linear-gradient(rgba(3, 78, 103, 0.55), rgba(3, 78, 103, 0.55)), url("light-toast.png"); }
 
 .index { text-align: center; color: white; }
 
@@ -231,7 +231,7 @@ h3 { font-family: 'Volkhov', sans-serif; }
 
 .angellist:hover { color: #000; border-color: #fff; }
 
-.carleton:hover { color: #234E8E; border-color: #fff; }
+.carleton:hover { color: #5076af; border-color: #fff; }
 
 /* subscribe form */
 .inline-form-container { display: flex; align-items: center; gap: 0.5rem; /* space between text and form */ font-family: sans-serif; margin-bottom: 20px; }
@@ -242,12 +242,12 @@ h3 { font-family: 'Volkhov', sans-serif; }
 /* Email input styling */
 .inline-form input[type="email"] { padding: 0.5rem 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; outline: none; transition: border-color 0.2s; }
 
-.inline-form input[type="email"]:focus { border-color: #2a7ae2; /* match button for cohesion */ }
+.inline-form input[type="email"]:focus { border-color: #034e67; /* match button for cohesion */ }
 
 /* Button styling */
-.inline-form button { padding: 0.5rem 1rem; font-size: 1rem; border: none; background-color: #2a7ae2; color: white; border-radius: 4px; cursor: pointer; transition: background-color 0.2s; }
+.inline-form button { padding: 0.5rem 1rem; font-size: 1rem; border: none; background-color: #034e67; color: white; border-radius: 4px; cursor: pointer; transition: background-color 0.2s; }
 
-.inline-form button:hover { background-color: #1756a9; }
+.inline-form button:hover { background-color: #034e67; }
 
 /* Responsive: stack on mobile */
 @media (max-width: 480px) { .inline-form-container { flex-direction: column; align-items: flex-start; }
