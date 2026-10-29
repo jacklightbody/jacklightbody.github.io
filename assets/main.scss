@@ -7,28 +7,40 @@
 body {
     background-color: #034e67;
     font-family: Arial, Helvetica, sans-serif;
-    background-image:
-        linear-gradient(rgba(3, 78, 103, 0.55), rgba(3, 78, 103, 0.55)),
-        url("light-toast.png");
 }
 
-.index{
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("light-toast.png");
+    background-repeat: repeat;
+    opacity: 0.45;
+    pointer-events: none;
+}
+
+.index {
     text-align: center;
     color: white;
+    overflow-x: hidden;
 }
 
 .index .container {
-    height: 80vh;
-    position: relative;
+    min-height: 80vh;
+    min-height: 80dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
 }
 
 .index .main {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: max-content;
-    max-width: min(36rem, calc(100vw - 2rem));
-    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: min(36rem, 100%);
+    opacity: 0;
 }
 
 .page-content {

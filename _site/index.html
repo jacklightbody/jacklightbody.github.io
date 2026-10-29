@@ -7,18 +7,6 @@
         rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack Lightbody</title>
-    <script>
-        (() => {
-            var spreadX = 28;
-            var spreadY = 16;
-            var x = (Math.random() * 2 - 1) * spreadX;
-            var y = (Math.random() * 2 - 1) * spreadY;
-            var style = document.createElement('style');
-            style.textContent =
-                '.index .main{transform:translate(calc(-50% + ' + x + 'vw), calc(-50% + ' + y + 'vh))}';
-            document.head.appendChild(style);
-        })();
-    </script>
 </head>
 
 <body class="index">
@@ -35,6 +23,28 @@
                     touch</a>.</p>
         </div>
     </div>
+    <script>
+        (function () {
+            var el = document.querySelector('.index .main');
+            if (!el) return;
+            var edge = 12;
+            var vw = document.documentElement.clientWidth;
+            var vh = document.documentElement.clientHeight;
+            var r = el.getBoundingClientRect();
+            var dx = (Math.random() * 2 - 1) * 0.12 * vw;
+            var dy = (Math.random() * 2 - 1) * 0.12 * vh;
+            dx = Math.max(edge - r.left, Math.min(vw - edge - r.right, dx));
+            dy = Math.max(edge - r.top, Math.min(vh - edge - r.bottom, dy));
+            el.style.transform = 'translate(' + dx + 'px, ' + dy + 'px)';
+            r = el.getBoundingClientRect();
+            if (r.left < edge) dx += edge - r.left;
+            if (r.right > vw - edge) dx -= r.right - (vw - edge);
+            if (r.top < edge) dy += edge - r.top;
+            if (r.bottom > vh - edge) dy -= r.bottom - (vh - edge);
+            el.style.transform = 'translate(' + dx + 'px, ' + dy + 'px)';
+            el.style.opacity = '1';
+        })();
+    </script>
 </body>
 
 </html>
